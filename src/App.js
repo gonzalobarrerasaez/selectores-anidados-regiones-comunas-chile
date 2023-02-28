@@ -3,8 +3,6 @@ import Select from './components/Select';
 import { getRegiones, getComunas } from './services/LocationService';
 import './App.css';
 
-// const regiones = getRegiones();
-
 function App() {
   const [loading, setLoading] = React.useState(true);
   const [regiones, setRegiones] = useState([]);

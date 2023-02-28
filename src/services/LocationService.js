@@ -1,5 +1,4 @@
 import data from '../data/comunas-regiones-chile.json';
-// console.log(data);
 
 export const getRegiones = () => {
     return data.map((item) => {
